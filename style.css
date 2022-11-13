@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #7c6f74;
+}
+body {
+    margin: 0;
+}
+
+.back{
+    top:0%;
+    margin: 0px;
+    width: 100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(space.jpg);
+    background-size: cover;
+}
+.nav{
+    top: 0%;
+    overflow: hidden;
+    position: fixed;
+    height: 30px;
+    width: 100%;
+    padding: 5px;
+    padding-top: 10px;
+    padding-left: 80px;
+    font-size: 20px;
+    font-family: "Century Gothic", bold;
+    font: optional;
+    text-align: left;
+    background-color: #282828;
+    color: #ebdbb2;
+}
+.flx{
+    margin:10%;
+    border-radius: 15px;
+    box-shadow: 0 9px 9px 0 rgba(0, 0, 0, 0.2), 0 6px 9px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    border: 1px dashed white;
+}
+.cat{
+    height: 300px;
+    width: 400px;
+    border-top-left-radius:15px ; 
+    border-bottom-left-radius: 15px ;   
+}
+h1{
+    background-color: #282828;
+    font-family: "Courier";
+    font-size: 60px;
+}
+p{
+    background-color: #282828;
+}
+.hlo{
+    border-left: 1px dashed #ebdbb2;
+    padding-left:30px;
+    padding-right:30px;
+    height: 300px;
+    width: 100%;
+    font-family:"Consolas";
+    color: #ebdbb2;
+    text-align: left;
+    font-size: 20px;
+    background-color: #282828;
+    border-top-right-radius:15px ; 
+    border-bottom-right-radius: 15px ;   
+}
