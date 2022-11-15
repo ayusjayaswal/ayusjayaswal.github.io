@@ -1,0 +1,73 @@
+.nav{
+	position:sticky;
+	width:100%;
+	top: 0%;
+	font-family:"Century Gothic";
+	display:flex;
+	padding:0.5%;
+	background-color:#282828;
+	border-bottom:4px solid #a89984; 
+}
+.navlist {
+	display:flex;
+	width:50%;
+	padding-left:1%;
+	align-items:center;
+}
+
+.navlist li{
+	padding-right:3%;
+	list-style:none;
+}
+
+.navlist li a{
+	position: relative;
+	text-decoration:none;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size:22px;
+	color:#a89984;
+	margin:0;
+}
+.logo{
+	height:25px;
+	padding-right: 10px;
+}
+
+.rightlist{
+	display: flex;
+	flex-direction: row-reverse;
+	width: 50%;
+	align-items: center;
+	padding-right: 1%;
+	background-color: #282828;
+}
+.rightlist li{
+	padding-inline:8px;
+	list-style: none;
+
+}
+
+.rightlist li a{
+	position: relative;
+	text-decoration: none;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size:18px;
+	color: #ebdbb2;
+	background-color: #504945;
+	border-radius: 10px;
+	border: 1px solid #a89984;
+	margin:0;
+	padding-inline: 30px;
+}
+.rightlist li a:hover{
+	position: relative;
+	text-decoration: none;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size:18px;
+	background-color: #ebdbb2;
+	border-radius: 10px;
+	border: 1px solid #504945;
+	color: #282828;
+	margin:0;
+	padding-inline: 30px;
+}
