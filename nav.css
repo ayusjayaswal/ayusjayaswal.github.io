@@ -80,4 +80,7 @@
 	.rightlist li{
 		display: none;
 		}
+        .leftlist{
+                width: 100%;
+                }
 }
