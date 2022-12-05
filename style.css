@@ -36,7 +36,7 @@ body{
     text-align: center;
     border-bottom: 1px solid;
 }
-.content p{font-family: 'Indie Flower', cursive;font-size: 25px;}
+.content p{font-family: 'Ubuntu', cursive;font-size: 25px;}
 .link{display:flex;flex-direction: row-reverse;}
 button{
     font-family:'Righteous',cursive;
