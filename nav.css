@@ -51,7 +51,7 @@
 	border-radius: 6px;
 	padding-inline: 30px;
 }
-.rightlist li a:hover{background-image: linear-gradient(#61897b,#4c7768);color: #9cccba;}
+.rightlist li a:hover{background-image: linear-gradient(#61897b,#4c7768);color: #282828;}
 @media (max-width: 650px){
 	.rightlist li{display: none;}
 	.rightlist{display:none;}
