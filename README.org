@@ -1,0 +1,6 @@
+#+AUTHOR Ayush Jayaswal
+* Table Of Contents :toc:
+- [[#about][About]]
+
+* About
+This is the codebase for my website @ https://ayusjayaswal.github.io
