@@ -8,10 +8,18 @@ body{
 }
 @media (max-width: 1300px){
     .helo{font-size: 30px;}
+}
+@media (max-width: 800px){
+    .content .proj p {
+	display: none;
+    }
+    .content .proj h2{
+	text-align: center;
+	margin: 20px;
+    }
     .content .proj button{
 	width: 100%;
     }
-
 }
 .helo{
     padding-inline: 5%;
