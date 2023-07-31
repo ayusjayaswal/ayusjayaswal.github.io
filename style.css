@@ -6,11 +6,34 @@ body{
     color: #427b58;
     text-align: center;
 }
+@media (max-width: 1300px){
+    .helo{font-size: 30px;}
+    .content .proj button{
+	width: 100%;
+    }
+
+}
 .helo{
     padding-inline: 5%;
     font-size: 100px;
     font-family: 'Righteous', cursive;
     margin-bottom:10px ;
+}
+button{
+    font-family:'Righteous',cursive;
+    font-size: 20px;
+    margin-block: 20px;
+    margin-inline:10px;
+    padding-block:10px ;
+    padding-inline: 20px;
+    background-image:linear-gradient(#ff664a,#f4513f,#a9311f);
+    border-radius: 5px;
+    border: 2px solid #ff664a;
+}
+button:hover{
+    background-image: linear-gradient(#8b291a,#61150a);
+    color: #faad9f;
+    border:2px solid #8b291a;
 }
 .content{
     height: auto;
@@ -26,32 +49,50 @@ body{
     text-decoration: none;
     list-style:none;
 }
-.content h2{
+.content h1{
     font-family: 'Ubuntu', sans-serif ;
-	font-size:50px;
-	margin-bottom: 15px;
+    font-size:50px;
+    margin-bottom: 15px;
     color:tomato;
     margin-inline:10%;
-	width:auto;
+    width:auto;
     text-align: center;
     border-bottom: 1px solid;
 }
-.content p{font-family: 'Ubuntu', cursive;font-size: 25px;}
-.link{display:flex;flex-direction: row-reverse;}
-button{
-    font-family:'Righteous',cursive;
-    font-size: 20px;
-    margin-block: 20px;
-    margin-inline:10px;
-    padding-block:10px ;
-    padding-inline: 20px;
-    background-image:linear-gradient(#ff664a,#f4513f,#a9311f);
-    border-radius: 5px;
-    border: 2px solid #ff664a;
+.content h2{
+    font-family: 'Ubuntu', sans-serif ;
+    font-size:30px;
+     width:auto;
 }
-button:hover{background-image: linear-gradient(#8b291a,#61150a);color: #faad9f;border:2px solid #8b291a;}
-@media (max-width: 1300px){
-    .helo{font-size: 30px;}
+.content p{
+    font-family: 'Ubuntu',cursive;
+    font-size: 20px;
+}
+.link{
+    display:flex;
+    flex-direction: row-reverse;
+}
+.content .proj{
+    display: flex;
+    flex-direction: column;
+    margin-block: 4%;
+    margin-inline:10%;
+    background-image:linear-gradient(#fabd2f,#d79921,#b57614);
+    color: #282828;
+    padding: 1.5%;
+    align-self:center;
+    text-align: justify;
+    border-radius: 10px;
+}
+.content .proj button{
+    margin: 3px;
+    background-image: linear-gradient(#282828,#1d2021);
+    border: solid 2px #b57614;
+    border-radius: 7px;
+}
+.content .proj a{
+    text-decoration: none;
+    color: #fabd2f;
 }
 .bottom{
     background-color: #427b58;
