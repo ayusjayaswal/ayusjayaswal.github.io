@@ -6,21 +6,6 @@ body{
     color: #427b58;
     text-align: center;
 }
-@media (max-width: 1300px){
-    .helo{font-size: 30px;}
-}
-@media (max-width: 800px){
-    .content .proj p {
-	display: none;
-    }
-    .content .proj h2{
-	text-align: center;
-	margin: 20px;
-    }
-    .content .proj button{
-	width: 100%;
-    }
-}
 .helo{
     padding-inline: 5%;
     font-size: 100px;
@@ -111,4 +96,21 @@ button:hover{
     bottom: 0;
     font-family: 'Homemade Apple',cursive;
     font-size: 40px;
+}
+
+@media (max-width: 1300px){
+    .helo{font-size: 30px;}
+}
+@media (max-width: 800px){
+    .content p{font-size: 15px;}
+    .content .proj p {
+	display: none;
+    }
+    .content .proj h2{
+	text-align: center;
+	margin: 20px;
+    }
+    .content .proj button{
+	width: 100%;
+    }
 }
