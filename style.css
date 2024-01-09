@@ -56,6 +56,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-block:-0.1vh;
 }
 .layer1{background-image: url(./waves/greenwave.svg);}
 .layer2{background-image: url(./waves/inv.greenwave.svg);}

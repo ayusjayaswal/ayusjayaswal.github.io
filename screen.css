@@ -1,0 +1,13 @@
+@media (max-width: 1200px) {
+    .content button{font-size:2vh;}
+    .content p {font-size:2vh;}
+    .content h1 {font-size:5vh;}
+    .tab_box .tab_btn{font-size:2vh}
+    .content_box .content_element p{font-size:3vh;}
+    .content_box .content_element h2{font-size:4vh;}
+    .content_box .content_element button{font-size:2vh;}
+    .software{font-size:3vh;}
+    .software h2{font-size:5vh;}
+    .bottom{font-size:3vh;}
+    .bottom p{font-size:2vh;}
+}
