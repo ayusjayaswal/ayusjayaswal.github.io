@@ -1,0 +1,37 @@
+
+.cloud1, .cloud2, .cloud3 {
+    position: absolute;
+    opacity: 0.5;}
+
+.cloud1 {
+    left: -30%;
+    height: 22vh;
+    top: 18vh;
+    animation: floatLeftToRight1 20s infinite linear;
+    animation-delay: 0s;}
+
+.cloud2 {
+    left: -450px;
+    height: 22vh;
+    top: 70vh;
+    animation: floatLeftToRight2 38s infinite ease-in-out;
+    animation-delay: 3s;}
+
+.cloud3 {
+    left:-500px;
+    height: 25vh;
+    top: 50vh;
+    animation: floatLeftToRight3 32s infinite linear;
+    animation-delay: 17s;}
+
+@keyframes floatLeftToRight1 {
+    0% { left: -30%; }
+    100% { left: 130%; }}
+
+@keyframes floatLeftToRight2 {
+    0% { left: -30%; }
+    100% { left: 130%; }}
+
+@keyframes floatLeftToRight3 {
+    0% { left: -45%; }
+    100% { left: 135%; }}

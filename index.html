@@ -7,9 +7,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ayush Jayaswal</title>
 	<link rel="icon" href="logo.png" type="image/icon type">
-	<link rel="stylesheet" href="nav.css">
 	<script src="script.js"></script>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="nav.css">
+	<link rel="stylesheet" href="clouds.css">
+	<link rel="stylesheet" href="projects.css">
+	<link rel="stylesheet" href="software.css">
 </head>
 
 <body>
@@ -20,61 +23,113 @@
 				<li><a href="#home"> <strong>Ayush Jayaswal</strong></a></li>
 			</ul>
 			<ul class="rightlist">
-				<li><a href="#Contact"><strong>Contact</strong></a></li>
-				<li><a href="#About"><strong>About</strong></a></li>
+				<li><a href="#Contact" onclick="scrollToSection('bottom_most')" ><strong>Contact</strong></a></li>
+				<li><a href="#About"  onclick="scrollToSection('intro_section')" ><strong>About</strong></a></li>
 			</ul>
 		</nav>
 	</div>
-	<div class="helo">
+	<section class="helo">
+		<img src="./clouds/cloud1.svg" class="cloud1">
+		<img src="./clouds/cloud2.svg" class="cloud2">
+		<img src="./clouds/cloud3.svg" class="cloud3">
 		<h1><strong> Namaste World!</strong></h1>
-	</div>
+	</section>
+	<div class="spacer layer1"></div>
 	<div class="content">
-		<h1># Intro...</h1>
-		<p><br>
-			Hey there, I'm Ayush Jayaswal!<br><br>
-			I'm a software engineer with a strong passion for crafting practical solutions through programming. With a solid
-			background in computer science, I thrive on tackling real-world challenges and creating efficient, innovative
-			solutions.
-			My journey in software engineering has allowed me to embrace the art of problem-solving, where each line of source
-			becomes a tool to build something meaningful. I believe that engineering is not just about writing code but also
-			about understanding the intricacies of challenges and finding elegant solutions.
-			<br><br>
-			Let's connect and geek out about all things software engineering! And more...
-			<br><br>
-			Cheers,<br>
-			Ayush Jayaswal
-		</p>
-		<div class="link">
-			<p><a href="https://www.linkedin.com/in/ayush-jayaswal-0b4752251" class="git"><button>Linkedin</button></a></p>
-			<p><a href="https://github.com/ayusjayaswal" class="git"><button>Github</button></a></p>
-		</div>
-	</div>
-
-	<div class="content">
-		<h1> Projects </h1>
-		<div class="projlist">
-			<div class="proj">
-				<h2>Streamify</h2>
-				<p> Stream or Download movies directly on your Linux </p>
-				<div class="link">
-					<button><a href="https://github.com/ayusjayaswal/streamify" class="git">Streamify at Github</a></button>
-				</div>
+		<section class="intro" id = "intro_section">
+			<h1># Intro...</h1>
+			<p><br>
+				Hey there, I'm Ayush Jayaswal!<br>
+				I'm a software engineer with a strong passion for crafting practical solutions through programming. With a solid
+				background in computer science, I thrive on tackling real-world challenges and creating efficient, innovative
+				solutions.
+				My journey in software engineering has allowed me to embrace the art of problem-solving, where each line of
+				source
+				becomes a tool to build something meaningful. I believe that engineering is not just about writing code but also
+				about understanding the intricacies of challenges and finding elegant solutions.
+				<br><br>
+				Let's connect and geek out about all things software engineering! And more...
+				<br><br>
+				Cheers,<br>
+				Ayush Jayaswal
+			</p>
+			<div class="link">
+				<a href="https://www.linkedin.com/in/ayush-jayaswal-0b4752251" class="git"><button>Linkedin</button></a>
+				<a href="https://github.com/ayusjayaswal" class="git"><button>Github</button></a>
 			</div>
-			<div class="proj">
+		</section>
+	</div>
+	<div class="spacer layer2 ."></div>
+
+	 <div class="my_proj"> <h1>My Projects</h1></div>
+	<div class="proj">
+		<div class="tab_box">
+			<button class="tab_btn active">Streamboi</button>
+			<button class="tab_btn">Scripts</button>
+			<button class="tab_btn">Suckless</button>
+		</div>
+		<div class="content_box">
+			<div class="content_element active">
+				<h2>Streamboi</h2>
+				<p>Streams Movies via torrent and plays them on mpv using Curl, webtorrent technologies.</p>
+				<a href="https://github.com/ayusjayaswal/streamboi" class="git"><button>Open Github Repository</button></a>
+			</div>
+			<div class="content_element">
 				<h2>Scripts</h2>
-				<p>These are Collection of Shell scripts I often use </p>
-				<div class="link">
-					<button><a href="https://github.com/ayusjayaswal/scripts" class="git">My Scripts at Github</a></button>
-				</div>
+				<p>A Collection of Scripts I Often use on my Linux Box.</p>
+				<a href="https://github.com/ayusjayaswal/scripts"><button>Open Github Repository</button></a>
+			</div>
+			<div class="content_element">
+				<h2>Suckless</h2>
+				<p>My Builds of softwares that suck less.</p>
+				<a href="https://github.com/ayusjayaswal/suckless"><button>Open Github Repository</button></a>
 			</div>
 		</div>
-	</div></div>
-
-
-	<div class="bottom">
-		<p>Ayush Jayaswal</p>
 	</div>
 
+	<div class="spacer layer3"></div>
+	<div class="software">
+		<h2>Technologies I often use...</h2>
+		<div class="dev set">
+			<div class="dev_grid grid">
+				<span><img src="https://upload.wikimedia.org/wikipedia/commons/0/08/EmacsIcon.svg"></span>
+				<span><img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Vimlogo.svg"></span>
+				<span><img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg"></span>
+				<span><img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Heckert_GNU_white.svg"></span>
+			</div>
+			Software Development Utilities
+		</div>
+		<div class="languages set">
+			<div class="languages_grid grid">
+				<span><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Python_logo_52.svg"></span>
+				<span><img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg"></span>
+				<span><img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"></span>
+				<span><img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg"></span>
+				<span><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Lisp_logo.svg"></span>
+				<span><img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png"></span>
+				<span><img
+						src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Rust_programming_language_black_logo.svg"></span>
+			</div>
+			Programming Languages
+		</div>
+		<div class="creative set">
+			<div class="creative_grid grid">
+				<span><img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Blender_logo_no_text.svg"></span>
+				<span><img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Inkscape_Logo.svg"></span>
+				<span><img src="https://upload.wikimedia.org/wikipedia/commons/4/45/The_GIMP_icon_-_gnome.svg"></span>
+				<span><img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Calligrakrita-base.svg"></span>
+				<span><img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Darktable_icon.svg"></span>
+			</div>
+			Graphic Design and Multimedia tools.
+		</div>
+		</dev>
+	</div>
+	<div class="spacer layer4"></div>
+	<section class="bottom" id="bottom_most">
+	  <h3>Ayush Jayaswal</h3>
+	  <p>Email: ayushjayaswal@yandex.com</p>
+	</section>
+	<script src="javascript.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,77 @@
+.my_proj{
+    bottom:-30%;
+    font-size:3vw;
+    font-family: 'Righteous', cursive;
+    color:#282828
+}
+.proj{
+    width:70vw;
+    margin-inline:15vw;
+    margin-block:5vw;
+    padding:2vw;
+    height:auto;
+    background-color:#282828;
+    box-shadow:0 2px 16px rgba(0,0,0,0.9);
+    border-radius:10px;
+    font-family: 'Righteous', cursive;
+}
+.tab_box{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}
+.tab_box .tab_btn{
+    font-size:2vw;
+    color:#7c6564;
+    background:none;
+    border:none;
+    padding-inline:2%;
+    padding-block:1%;
+    cursor:pointer;
+    border-radius:.6vw;
+}
+.tab_box .tab_btn.active{
+    color:#282828;
+    background-color:#f6cf73;
+}
+
+
+.content_box{
+    padding:2vw;
+}
+.content_box .content_element{
+    display:none;
+    text-align:left;
+    padding:2vw;
+    background-color:#3c3836;
+    color:#928374;
+    border-radius:0.6vw;
+    font-size:2vw;
+    animation: moving .2s ease;
+}
+@keyframes moving{
+    from{transform:TranslateX(50px);opacity:0;}
+    to{transform:TranslateX(0px);opacity:1;}
+}
+
+.content_box .content_element.active{
+    display:block;
+}
+.content_box .content_element h2{
+    margin-bottom:10px; 
+}
+.content_box .content_element button{
+    width:90%;
+    margin-inline:5%;
+    margin-block:2vh;
+    padding:1vw;
+     font-family:'Righteous',cursive;
+    font-size: 2vw;
+    background-color:#928374;
+    color:#3c3836;
+    border-radius: 1vw;
+    border:none;
+}
+.content_box .content_element button:hover{
+    background-color:#b79a59;
+}
