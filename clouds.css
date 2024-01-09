@@ -7,21 +7,21 @@
     left: -30%;
     height: 22vh;
     top: 18vh;
-    animation: floatLeftToRight1 20s infinite linear;
+    animation: floatLeftToRight1 40s infinite linear;
     animation-delay: 0s;}
 
 .cloud2 {
     left: -450px;
     height: 22vh;
     top: 70vh;
-    animation: floatLeftToRight2 38s infinite ease-in-out;
+    animation: floatLeftToRight2 48s infinite ease-in-out;
     animation-delay: 3s;}
 
 .cloud3 {
     left:-500px;
     height: 25vh;
     top: 50vh;
-    animation: floatLeftToRight3 32s infinite linear;
+    animation: floatLeftToRight3 42s infinite linear;
     animation-delay: 17s;}
 
 @keyframes floatLeftToRight1 {
