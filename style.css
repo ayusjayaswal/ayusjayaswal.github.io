@@ -1,20 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Indie+Flower&family=Righteous&family=Satisfy&family=Ubuntu:wght@300&display=swap');
 *{padding: 0;margin: 0;}
 body{
-    padding-top: 100px;
-    background-color: #8ec07c;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color:#f6cf73;
     color: #427b58;
     text-align: center;
+    overflow-x: hidden;
 }
-.helo{
-    padding-inline: 5%;
-    font-size: 100px;
+.helo {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    font-size:6vw; 
     font-family: 'Righteous', cursive;
-    margin-bottom:10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #dada83, #ccd680, #bdd17e, #afcc7d, #a1c77c, #98c27a, #8fbc78, #87b776, #82b071, #7da96d, #78a268, #739b64);
+    overflow-x: hidden;
 }
-button{
+
+@keyframes bubbly {
+    0% { transform: translateY(0) scale(1); }
+    50% { transform: translateY(-20px) scale(1.01); }
+    100% { transform: translateY(0) scale(1); }
+}
+
+.helo h1 {
+    animation: bubbly 2s infinite;
+}
+.content button{
     font-family:'Righteous',cursive;
-    font-size: 20px;
+    font-size: 2vw;
     margin-block: 20px;
     margin-inline:10px;
     padding-block:10px ;
@@ -23,94 +42,68 @@ button{
     border-radius: 5px;
     border: 2px solid #ff664a;
 }
-button:hover{
+.content button:hover{
     background-image: linear-gradient(#8b291a,#61150a);
     color: #faad9f;
     border:2px solid #8b291a;
 }
+.content .intro h1{
+    padding-top:10vh;
+}
+.spacer{
+    aspect-ratio:960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.layer1{background-image: url(./waves/greenwave.svg);}
+.layer2{background-image: url(./waves/inv.greenwave.svg);}
+.layer3{background-image: url(./waves/redwave.svg);}
+.layer4{background-image: url(./waves/inv.redwave.svg);}
 .content{
     height: auto;
-    width: 90%;
-    margin-inline: 2.5%;
-    margin-block:70px;
-    padding: 2.5%;
+    width: 100vw;
     align-self:center;
     text-align: justify;
-    border-radius: 10px;
-    background-color: #282828;
+    background-color: #274833;
     color: #fbf1c7;
     text-decoration: none;
     list-style:none;
 }
 .content h1{
     font-family: 'Ubuntu', sans-serif ;
-    font-size:50px;
+    font-size:6vw;
     margin-bottom: 15px;
-    color:tomato;
+    color:#739b64;
     margin-inline:10%;
     width:auto;
     text-align: center;
     border-bottom: 1px solid;
 }
-.content h2{
-    font-family: 'Ubuntu', sans-serif ;
-    font-size:30px;
-     width:auto;
-}
 .content p{
+    width:70vw;
+    margin-inline:15vw;
     font-family: 'Ubuntu',cursive;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 .link{
+    width:70vw;
+    margin-inline:15vw;
     display:flex;
     flex-direction: row-reverse;
 }
-.content .proj{
-    display: flex;
-    flex-direction: column;
-    margin-block: 4%;
-    margin-inline:10%;
-    background-image:linear-gradient(#fabd2f,#d79921,#b57614);
-    color: #282828;
-    padding: 1.5%;
-    align-self:center;
-    text-align: justify;
-    border-radius: 10px;
-}
-.content .proj button{
-    margin: 3px;
-    background-image: linear-gradient(#282828,#1d2021);
-    border: solid 2px #b57614;
-    border-radius: 7px;
-}
-.content .proj a{
-    text-decoration: none;
-    color: #fabd2f;
-}
 .bottom{
-    background-color: #427b58;
-    margin-top: 300px;
+    background-color: #461a16;
     padding-top:10% ;
-    color: #8ec07c;
+    color: #e85d4d;
     width: 100%;
     bottom: 0;
     font-family: 'Homemade Apple',cursive;
-    font-size: 40px;
+    font-size: 5vw;
 }
-
-@media (max-width: 1300px){
-    .helo{font-size: 30px;}
-}
-@media (max-width: 800px){
-    .content p{font-size: 15px;}
-    .content .proj p {
-	display: none;
-    }
-    .content .proj h2{
-	text-align: center;
-	margin: 20px;
-    }
-    .content .proj button{
-	width: 100%;
-    }
+.bottom p{
+    font-family: 'Ubuntu', sans-serif ;
+    font-size: 2vw;
+    padding-bottom:10vh;
 }
